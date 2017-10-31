@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Svetlana Semenova](https://up.htmlacademy.ru/htmlcss/19/user/521081).
-* Наставник: `Неизвестно`.
+* Наставник:[Алексей Новиков] (https://htmlacademy.ru/profile/id42641)..
 
 ---
 
