@@ -14,7 +14,7 @@
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
           <li><a href="#">Карта штата</a></li>
-          <li><a href="#">Гостиницы</a></li>
+          <li><a href="inner.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -74,10 +74,35 @@
            <h2>Заинтересовались?</h2>
            <p class="appointment-info">Укажите предполагаемые даты поездки,
               и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-              <form action="http://echo.htmlacademy.ru" method="get">
-                <label class="appointment-search">Поиск гостиницы в Седоне</label>
-                
-
+              <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
+                <a href="#" class="appointtment-search"><h3>Поиск гостиницы в Седоне</h3></a>
+                <p class="appointment-item">
+                  <label for="appointment-date-in">Дата заезда:</label>
+                  <input id="appointment-date-in" type="text" name="date"
+                    value="" placeholder="24 апреля 2017">
+                  <input type="image" src="img/svg-sedona/calendar.svg" alt="Календарь">
+                </p>
+                <p class="appointment-item">
+                  <label for="appointment-date-out">Дата выезда:</label>
+                  <input id="appointment-date-out" type="text" name="date"
+                    value="" placeholder="4 июля 2017">
+                  <input type="image" src="img/svg-sedona/calendar.svg" alt="Календарь">
+                </p>
+                <p class="appointmen-item">
+                  <label for="appointment-adults">Взрослые</label>
+                  <input type="image" src="img/minus.png" alt="Минус">
+                  <input id="appointment-adults" type="text" name="text"
+                    value="" placeholder="2">
+                  <input type="image" src="img/plus.png" alt="Плюс">
+                </p>
+                <p class="appointmen-item">
+                  <label for="appointment-children">Дети</label>
+                  <input type="image" src="img/minus.png" alt="Минус">
+                  <input id="appointment-children" type="text" name="text"
+                    value="" placeholder="0">
+                  <input type="image" src="img/plus.png" alt="Плюс">
+                </p>
+                <button type="button">Найти</button>
               </form>
         </section>
     </main>
