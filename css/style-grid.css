@@ -1,0 +1,89 @@
+/* ----- Сеточные стили ----- */
+
+
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url('..//img/sedona-index-1200.jpg');
+  background-size: 1372px auto;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+    margin-bottom: 60px;
+
+    /* Временно для сетки */
+    min-height: 60px;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Временно для сетки */
+    min-height: 60px;
+    background-color: transparent;
+}
+
+.main-header-logo {
+    width: 138px;
+    height: 70px;
+    order: 2;
+    background-color: #cacaca;
+
+    /* Временно для сетки */
+    /*display: block;*/
+}
+
+.site-navigation {
+    width: 1050px;
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    
+    /* Временно для сетки */
+    min-height: 50px;
+  }
+
+.main-navigation-wrapper {
+    width: 100%;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #855353;
+    /*background-color: transparent;*/
+}
+
+.container {
+    
+}
+
+.welcome {
+    width: 1200px;
+    height: 474px;
+    background-color: #dda785;
+    margin: 0 auto;
+    
+    
+    
+    
+}
+
+.cause {
+    width: 1200px;
+    height: 216px;
+    background-color: #a7b85c;
+    background-position: center;
+}
+}

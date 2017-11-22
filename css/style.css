@@ -197,16 +197,60 @@ body {
         color: #666666;
     }
 
+    .cause {
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .cause h2 {
+        font: inherit;
+        font-size: 21px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+    .cause h3 {
+        font: inherit;
+        font-size: 14px;
+        line-height: 26px;
+        color: #333333;
+    }
+
     .advantages .advantages-list {
         width: 1200px;
-        position: relative; 
+        margin: 0 auto;
+    }
+
+    section.advantages-list {
+        width: 1200px;
         
     }
-    
+
+    /*.advantages {
+        display: table-cell;
+    }*/
+
     .advantages-list,
     .advantages-features {
         list-style: none;
+        
     }
+
+    /*.advantages-header {
+        display: inline-block;
+        
+    }
+
+    .advantages-item-first,
+    .advantages-item-second {
+        vertical-align: middle;
+
+    }
+
+    .advantages-features {
+        vertical-align: middle;
+    }*/
 
     .advantages-item {
         text-align: center;
@@ -272,7 +316,6 @@ body {
         background-color: #766357;
         font: inherit;
         font-size: 21px;
-        padding: 34px 139px;
         color: #ffffff;
     }
         
@@ -373,45 +416,51 @@ body {
         height: 41px;
     }
 
-    .minus { 
+    .minus-sprite { 
         display: inline-block; 
-        background: url('../img/minus_sprite.png') no-repeat;
+        background: url('../img/minus_sprite.png') no-repeat; 
         overflow: hidden; 
         text-indent: -9999px; 
-        text-align: left;
-        background-position: -5px -0px; 
+        text-align: left; 
+        background-position: -10px -0px; 
         width: 12px; 
-        height: 3px;  
+        height: 3px;
     }
 
-    .minus:hover {
-        background-position: -5px -8px;
+    .minus:hover span,
+    .minus:focus span {
+        background-position: -10px -13px; 
     }
     
     
-    .minus:focus { 
-        background-position: -5px -16px; 
+    .minus:active span { 
+        background-position: -10px -26px; 
     }
     
-    .plus { 
+    .plus-sprite { 
         display: inline-block; 
         background: url('../img/plus_sprite.png') no-repeat; 
         overflow: hidden; 
         text-indent: -9999px; 
         text-align: left;
-        background-position: -5px -0px; 
+        background-position: -10px -0px; 
         width: 11px; 
         height: 11px;  
     }
  
-    .plus:hover { 
-        background-position: -5px -16px; 
-        width: 11px; height: 11px; 
+    .plus:hover span,
+    .plus:focus span { 
+        background-position: -10px -21px; 
     }
-    .plus:focus { 
-        background-position: -5px -32px; 
-        width: 11px; 
-        height: 11px; 
+     
+    .plus:active span{ 
+        background-position: -10px -42px; 
+    }
+
+    .calendar,
+    .minus, 
+    .plus {
+        border: 0;
     }
 
 
